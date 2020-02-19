@@ -7,7 +7,6 @@ Arduino_Discrete_Output_Pin::Arduino_Discrete_Output_Pin( uint8_t an_arduino_pin
 {
     this->my_arduino_pin_id = an_arduino_pin_id;
 	pinMode(an_arduino_pin_id, OUTPUT);
-    this->Discrete_Pin = Discrete_Pin_Class(this);
 }
 /**************************************************************************************************/
 
@@ -27,7 +26,7 @@ Arduino_Discrete_Output_Pin::Arduino_Discrete_Output_Pin( uint8_t an_arduino_pin
 /**************************************************************************************************/
 i_Discrete_Output* Arduino_Discrete_Output_Pin::Get_Port__Discrete_Pin( void )
 {
-    return (i_Discrete_Output*)&(this->Discrete_Pin);
+    return (i_Discrete_Output*)(this);
 }
 /**************************************************************************************************/
 
@@ -41,15 +40,15 @@ i_Discrete_Output* Arduino_Discrete_Output_Pin::Get_Port__Discrete_Pin( void )
 /* Provided operations */
 /**************************************************************************************************/
 /* Discrete_Pin:i_Discrete_Output */
-void Arduino_Discrete_Output_Pin::Discrete_Pin_Class::Set_Level( E_IO_LEVEL level )
+void Arduino_Discrete_Output_Pin::Set_Level( E_IO_LEVEL level )
 {
     if( level==IO_LEVEL_LOW )
 	{
-		digitalWrite( this->Parent->my_arduino_pin_id, LOW );
+		digitalWrite( this->my_arduino_pin_id, LOW );
 	}
 	else
 	{
-		digitalWrite( this->Parent->my_arduino_pin_id, HIGH );
+		digitalWrite( this->my_arduino_pin_id, HIGH );
 	}
 }
 /**************************************************************************************************/

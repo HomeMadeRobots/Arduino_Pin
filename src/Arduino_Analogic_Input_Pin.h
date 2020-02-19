@@ -17,7 +17,7 @@
 /* Events */
 
 
-class Arduino_Analogic_Input_Pin {
+class Arduino_Analogic_Input_Pin : i_Analogic_Input {
 public :
     /*--------------------------------------------------------------------------------------------*/
     /* Constructor */
@@ -34,6 +34,11 @@ public :
     /* Provided port accessors */
     i_Analogic_Input* Get_Port__Analogic_Pin( void );
 
+	/*--------------------------------------------------------------------------------------------*/
+    /* Provided operations */
+    /* Analogic_Pin:i_Analogic_Input */
+	void Get_Voltage( T_VOLTAGE* voltage ) override ;
+	
 private :
     /*--------------------------------------------------------------------------------------------*/
     /* Private attributes */
@@ -47,16 +52,6 @@ private :
 
     /*--------------------------------------------------------------------------------------------*/
     /* Provider ports */
-    /* Analogic_Pin:i_Analogic_Input */
-    class Analogic_Pin_Class : i_Analogic_Input {
-    public :
-        Analogic_Pin_Class( void ) {}
-        Analogic_Pin_Class( Arduino_Analogic_Input_Pin* x ) : parent(x) {}
-        void Get_Voltage( T_VOLTAGE* voltage ) override ;
-    private :
-        Arduino_Analogic_Input_Pin* parent;
-    };
-    Analogic_Pin_Class Analogic_Pin;
 	
     /*--------------------------------------------------------------------------------------------*/
     /* Sent events */

@@ -7,7 +7,6 @@
 Arduino_Analogic_Input_Pin::Arduino_Analogic_Input_Pin( uint8_t an_arduino_pin_id )
 {
     this->my_arduino_pin_id = an_arduino_pin_id;
-    this->Analogic_Pin = Analogic_Pin_Class(this);
 }
 
 
@@ -26,7 +25,7 @@ Arduino_Analogic_Input_Pin::Arduino_Analogic_Input_Pin( uint8_t an_arduino_pin_i
 /**************************************************************************************************/
 i_Analogic_Input* Arduino_Analogic_Input_Pin::Get_Port__Analogic_Pin( void )
 {
-    return (i_Analogic_Input*)&(this->Analogic_Pin);
+    return (i_Analogic_Input*)(this);
 }
 /**************************************************************************************************/
 
@@ -40,9 +39,9 @@ i_Analogic_Input* Arduino_Analogic_Input_Pin::Get_Port__Analogic_Pin( void )
 /* Provided operations */
 /**************************************************************************************************/
 /* Analogic_Pin:i_Analogic_Input */
-void Arduino_Analogic_Input_Pin::Analogic_Pin_Class::Get_Voltage( T_VOLTAGE* voltage )
+void Arduino_Analogic_Input_Pin::Get_Voltage( T_VOLTAGE* voltage )
 {
-    *voltage = analogRead( this->parent->my_arduino_pin_id );
+    *voltage = analogRead( this->my_arduino_pin_id );
 }
 /**************************************************************************************************/
 

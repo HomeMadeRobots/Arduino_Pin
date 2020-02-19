@@ -17,7 +17,7 @@
 /* Events */
 
 
-class Arduino_Discrete_Output_Pin {
+class Arduino_Discrete_Output_Pin : i_Discrete_Output {
 public :
     /*--------------------------------------------------------------------------------------------*/
     /* Constructor */
@@ -34,6 +34,11 @@ public :
     /* Provided port accessors */
     i_Discrete_Output* Get_Port__Discrete_Pin( void );
 
+    /*--------------------------------------------------------------------------------------------*/
+    /* Provided operations */
+    /* Discrete_Pin:i_Discrete_Output */
+	void Set_Level( E_IO_LEVEL level ) override ;
+	
 private :
     /*--------------------------------------------------------------------------------------------*/
     /* Private attributes */
@@ -47,16 +52,6 @@ private :
 
     /*--------------------------------------------------------------------------------------------*/
     /* Provider ports */
-    /* Discrete_Pin:i_Discrete_Output */
-    class Discrete_Pin_Class : i_Discrete_Output {
-    public :
-        Discrete_Pin_Class( void ) {}
-        Discrete_Pin_Class( Arduino_Discrete_Output_Pin* x ) : Parent(x) {}
-        void Set_Level( E_IO_LEVEL level ) override ;
-    private :
-        Arduino_Discrete_Output_Pin* Parent;
-    };
-    Discrete_Pin_Class Discrete_Pin;
 
     /*--------------------------------------------------------------------------------------------*/
     /* Sent events */
