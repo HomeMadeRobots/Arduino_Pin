@@ -2,62 +2,40 @@
 #define ARDUINO_DISCRETE_OUTPUT_PIN_H
 
 
+/*============================================================================*/
+/* Inclusions */
+/*============================================================================*/
 /* Attributes */
-#include "stdint.h"
-#include "Arduino.h"
+#include <stdint.h>
 
 
 /* Realized interfaces */
-#include "i_Discrete_Output.h"
+#include "Discrete_Output.h"
 
 
-/* Needed interfaces */
+/*============================================================================*/
+/* Component_Type */
+/*============================================================================*/
+typedef struct {
+
+    /* Configuration_Parameters */
+    uint8_t Arduino_Pin_Id;
+
+} Arduino_Discrete_Output_Pin;
 
 
-/* Events */
+/*============================================================================*/
+/* Component_Operations */
+/*============================================================================*/
+void Arduino_DOP__Initialize( const Arduino_Discrete_Output_Pin* Me );
 
 
-class Arduino_Discrete_Output_Pin : i_Discrete_Output {
-public :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Constructor */
-	Arduino_Discrete_Output_Pin( void ) {}
-    Arduino_Discrete_Output_Pin( uint8_t an_arduino_pin_id );
+/*============================================================================*/
+/* Realized interfaces */
+/*============================================================================*/
+void Arduino_DOP__Discrete_Pin__Set_Level( 
+    const Arduino_Discrete_Output_Pin* Me,
+    E_IO_Level level );
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Component_Type_Operations */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Event reception points accessors */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provided port accessors */
-    i_Discrete_Output* Get_Port__Discrete_Pin( void );
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provided operations */
-    /* Discrete_Pin:i_Discrete_Output */
-	void Set_Level( E_IO_LEVEL level ) override ;
-	
-private :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private attributes */
-    uint8_t my_arduino_pin_id;
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private methods */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Requirer_Ports */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provider ports */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Sent events */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Received events */
-};
 
 #endif
