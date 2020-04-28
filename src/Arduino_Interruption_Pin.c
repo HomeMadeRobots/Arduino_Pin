@@ -8,23 +8,14 @@
 void Arduino_IP__Hardware_Interruption_Routine(
     const Arduino_Interruption_Pin* Me )
 {    
-    E_IO_Level pin_level = IO_LEVEL_LOW; /* Pin_State_Changed event argument */
+    uint32_t timestamp;
+    E_IO_Level pin_level = IO_LEVEL_LOW;
     
-    /* Get hardware level of the pin of the Arduino board. */
-    int arduino_pin_level = digitalRead( Me->Arduino_Pin_Id );
-    
-    /* Set the value  of the argument of Pin_State_Changed */
-    if( LOW==arduino_pin_level )
-    { /* Pin of the Arduino board is between 0 V and 0.8 V. */
-        pin_level = IO_LEVEL_LOW;
-    }
-    else
-    { /* Pin of the Arduino board is between 2.2 V and 5 V. */
-        pin_level = IO_LEVEL_HIGH;
-    }
-    
+    timestamp = micros();
+    Arduino_IP__Discrete_Pin__Get_Level( Me, &pin_level );
+
     /* Send the Pin_State_Changed event */
-    (Me->Pin_State_Changed)(pin_level);
+    (Me->Pin_State_Changed)( pin_level, timestamp );
 }
 
 
