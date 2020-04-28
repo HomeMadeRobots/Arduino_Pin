@@ -6,3 +6,6 @@ This package gathers component types allowing to abstract the Arduino plateform 
 
 ## Arduino_Discrete_Output_Pin
 ![](/doc/CD_Arduino_Discrete_Output_Pin.jpg)
+
+## Arduino_Interruption_Pin
+![](/doc/CD_Arduino_Interruption_Pin.jpg)
