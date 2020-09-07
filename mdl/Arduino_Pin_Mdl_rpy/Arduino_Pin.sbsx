@@ -17,18 +17,18 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:28:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:28:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.6.2020::20:40:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.6.2020::20:40:14</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">4.21.2020::11:28:52</weakCGTime>
+			<weakCGTime type="a">9.6.2020::20:40:14</weakCGTime>
 			<strongCGTime type="a">11.7.2019::12:28:17</strongCGTime>
 			<_defaultComposite type="s">GUID d4480372-d8f9-40de-997b-454f66979687</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -240,8 +240,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:29:33</_modifiedTime>
-			<_lastModifiedTime type="a">4.21.2020::11:29:33</_lastModifiedTime>
+			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
+			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -378,7 +378,12 @@
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">1</size>
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
 												<IProperty type="e">
 													<_Name type="a">ShowLabels</_Name>
 													<_Value type="a">True</_Value>
@@ -1010,8 +1015,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:28:33</_modifiedTime>
-			<_lastModifiedTime type="a">4.21.2020::11:28:33</_lastModifiedTime>
+			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
+			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1148,7 +1153,12 @@
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">1</size>
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
 												<IProperty type="e">
 													<_Name type="a">ShowLabels</_Name>
 													<_Value type="a">True</_Value>
@@ -1784,8 +1794,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:20:52</_modifiedTime>
-			<_lastModifiedTime type="a">4.21.2020::11:20:52</_lastModifiedTime>
+			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
+			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1911,6 +1921,37 @@
 		</CGIClass>
 		<CGIClass type="e">
 			<_id type="a">GUID 4883c4f5-4c22-4ea1-8ff1-1420979e702f</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">87</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -2173,7 +2214,8 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
@@ -2697,8 +2739,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:27:20</_modifiedTime>
-			<_lastModifiedTime type="a">4.21.2020::11:27:20</_lastModifiedTime>
+			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
+			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2822,6 +2864,37 @@
 		</CGIClass>
 		<CGIClass type="e">
 			<_id type="a">GUID 00043aed-a738-49f6-8088-0fd113fedbd5</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">87</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3391,7 +3464,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hname type="a">Component_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
@@ -3582,7 +3655,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 			<_id type="a">GUID 1369b5dc-73e1-4f2f-b9a7-240880ab5e60</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<IAttribute type="e">
@@ -3597,7 +3670,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hname type="a">Component_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
@@ -3866,7 +3939,7 @@ It encapsulates the Arduino platform.</_text>
 			<_id type="a">GUID 2433e737-331b-4ac0-aad2-aecb7b927512</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<IAttribute type="e">
@@ -3881,7 +3954,7 @@ It encapsulates the Arduino platform.</_text>
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hname type="a">Component_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
@@ -4072,7 +4145,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 			<_id type="a">GUID c7d8899b-1f8d-4e08-8b65-0b0a94aba102</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<IAttribute type="e">
@@ -4087,7 +4160,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hname type="a">Component_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
