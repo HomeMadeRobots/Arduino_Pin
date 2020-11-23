@@ -18,17 +18,17 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
 							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">9.6.2020::20:40:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">9.6.2020::20:40:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:25</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">9.6.2020::20:40:14</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:26:25</weakCGTime>
 			<strongCGTime type="a">11.7.2019::12:28:17</strongCGTime>
 			<_defaultComposite type="s">GUID d4480372-d8f9-40de-997b-454f66979687</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -240,8 +240,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
-			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:26:25</_modifiedTime>
+			<_lastModifiedTime type="a">11.23.2020::15:26:25</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1015,8 +1015,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
-			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:26:30</_modifiedTime>
+			<_lastModifiedTime type="a">11.23.2020::15:26:30</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1794,8 +1794,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
-			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:26:33</_modifiedTime>
+			<_lastModifiedTime type="a">11.23.2020::15:26:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2739,8 +2739,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
-			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:26:36</_modifiedTime>
+			<_lastModifiedTime type="a">11.23.2020::15:26:36</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3339,7 +3339,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:23:40</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:25</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3355,9 +3355,9 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.21.2020::11:23:40</_modifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:26:25</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.21.2020::11:23:40</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:26:25</weakCGTime>
 			<strongCGTime type="a">11.3.2019::9:51:41</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3462,21 +3462,21 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Component_Parameter</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:23:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:23:40</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:25</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
-					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Basic_Data_Types</_hsubsystem>
 					<_hname type="a">uint8</_hname>
 					<_hid type="a">GUID 058963e7-375f-4f57-aceb-5a2f36b75490</_hid>
 				</IHandle>
@@ -3486,7 +3486,16 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID ad48e5f3-ee5e-443e-9d32-96f7f20dd912</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ad48e5f3-ee5e-443e-9d32-96f7f20dd912</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:25</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IClass type="e">
 			<_id type="a">GUID e1dee41f-ab7c-4476-8981-106c7c436a82</_id>
 			<_myState type="a">8192</_myState>
@@ -3505,7 +3514,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:22:38</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:30</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3521,9 +3530,9 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.21.2020::11:22:38</_modifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:26:30</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.21.2020::11:22:38</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:26:30</weakCGTime>
 			<strongCGTime type="a">11.7.2019::12:33:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3627,7 +3636,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
@@ -3668,21 +3677,21 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Component_Parameter</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:22:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:22:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:30</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
-					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Basic_Data_Types</_hsubsystem>
 					<_hname type="a">uint8</_hname>
 					<_hid type="a">GUID 058963e7-375f-4f57-aceb-5a2f36b75490</_hid>
 				</IHandle>
@@ -3692,7 +3701,16 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 289694e9-c4d1-469f-8c8c-7f95a1148bc0</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 289694e9-c4d1-469f-8c8c-7f95a1148bc0</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:30</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IClass type="e">
 			<_id type="a">GUID 5d9b4493-c3fb-4317-9755-e7e55ae225ff</_id>
 			<_myState type="a">8192</_myState>
@@ -3711,7 +3729,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:20:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:33</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3725,9 +3743,9 @@ Also allows to read hardware level of the pin.%0D
 It encapsulates the Arduino platform.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.21.2020::11:20:21</_modifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:26:33</_modifiedTime>
 			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">4.21.2020::11:20:21</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:26:33</weakCGTime>
 			<strongCGTime type="a">3.22.2020::18:8:28</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3911,7 +3929,7 @@ It encapsulates the Arduino platform.</_text>
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
@@ -3952,21 +3970,21 @@ It encapsulates the Arduino platform.</_text>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Component_Parameter</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:19:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:19:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:33</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
-					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Basic_Data_Types</_hsubsystem>
 					<_hname type="a">uint8</_hname>
 					<_hid type="a">GUID 058963e7-375f-4f57-aceb-5a2f36b75490</_hid>
 				</IHandle>
@@ -3976,7 +3994,16 @@ It encapsulates the Arduino platform.</_text>
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID d22d35d7-c587-410a-9fbb-e06540df3939</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID d22d35d7-c587-410a-9fbb-e06540df3939</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:33</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IClass type="e">
 			<_id type="a">GUID f2a804d7-dd85-4887-8c83-7aa1f0491f18</_id>
 			<_myState type="a">8192</_myState>
@@ -3995,7 +4022,7 @@ It encapsulates the Arduino platform.</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:25:26</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:36</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4011,9 +4038,9 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.21.2020::11:25:26</_modifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:26:36</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.21.2020::11:25:26</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:26:36</weakCGTime>
 			<strongCGTime type="a">3.23.2020::10:32:18</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4117,7 +4144,7 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
@@ -4158,21 +4185,21 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Component_Parameter</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.21.2020::11:25:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.21.2020::11:25:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:36</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Data_Type_Metamodel.sbsx</_hfilename>
-					<_hsubsystem type="a">Software_Data_Type_Metamodel::Stereotypes</_hsubsystem>
+					<_hsubsystem type="a">Software_Data_Type_Metamodel::Basic_Data_Types</_hsubsystem>
 					<_hname type="a">uint8</_hname>
 					<_hid type="a">GUID 058963e7-375f-4f57-aceb-5a2f36b75490</_hid>
 				</IHandle>
@@ -4182,7 +4209,16 @@ It encapsulates the \ulwave Arduino\ulnone  platform.\par%0D
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 4146709e-f43b-4160-8c11-74bb6941e839</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 4146709e-f43b-4160-8c11-74bb6941e839</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:26:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:26:36</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
